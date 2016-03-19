@@ -6,6 +6,7 @@ Easy peasy way to use [Google's diff match patch library](https://code.google.co
 ;; leiningen
 [akjetma/dmp-clj "0.1.0"]
 ```
+* * *  
 
 ```clojure
 (require '[dmp-clj.core :as dmp])
@@ -22,6 +23,7 @@ Easy peasy way to use [Google's diff match patch library](https://code.google.co
 +s
 
 ```
+  
 
 ```clojure
 (println (dmp/apply-patch old patch))
