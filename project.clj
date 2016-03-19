@@ -4,6 +4,8 @@
   :url "http://github.com/akjetma/dmp-clj"  
   :scm {:name "git"
         :url "http://github.com/akjetma/dmp-clj"}
+  :license {:name "Eclipse Public License"
+            :url "http://www.eclipse.org/legal/epl-v10.html"}
 
   :min-lein-version "2.5.3"
   :dependencies [[org.clojure/clojure "1.8.0"]
