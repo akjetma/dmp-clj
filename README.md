@@ -6,7 +6,7 @@ Easy peasy way to use [Google's diff match patch library](https://code.google.co
 ;; leiningen
 [akjetma/dmp-clj "0.1.0"]
 ```
-* * *  
+* * *
 
 ```clojure
 (require '[dmp-clj.core :as dmp])
@@ -14,22 +14,20 @@ Easy peasy way to use [Google's diff match patch library](https://code.google.co
 (def old "cat")
 (def new "cats")
 (def patch (dmp/make-patch old new))
-(println patch) 
+(def patched (dmp/apply-patch old patch))
 ```
 
+This is what patch looks like when `println`'d. 
 ```
 @@ -1,3 +1,4 @@
  cat
 +s
 
 ```
-  
+`dmp/make-patch` computes the patch and converts it into its string representation.
 
+Conversely, `dmp/apply-patch` takes a patch string rather than the implementation-specific patch object.
 ```clojure
-(println (dmp/apply-patch old patch))
+(= (dmp/apply-patch old patch) new)
+true
 ```
-
-```
-cats
-```
-
