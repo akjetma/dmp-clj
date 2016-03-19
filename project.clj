@@ -1,4 +1,4 @@
-(defproject dmp-clj "0.1.0-SNAPSHOT"
+(defproject akjetma/dmp-clj "0.1.0"
   :author "Adam Jetmalani <https://akjetma.github.io>"
   :description "comprehensive clojure/clojurescript wrapper for google's diff match patch library"
   :url "http://github.com/akjetma/dmp-clj"  

@@ -1,14 +1,5 @@
 # dmp-clj
 
-A Clojure library designed to ... well, that part is up to you.
+Easy peasy way to use [Google's diff match patch library](https://code.google.com/archive/p/google-diff-match-patch/) in your Clojure or ClojureScript project.
 
-## Usage
 
-FIXME
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
