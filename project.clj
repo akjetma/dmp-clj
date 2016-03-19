@@ -1,7 +1,11 @@
 (defproject dmp-clj "0.1.0-SNAPSHOT"
-  :min-lein-version "2.5.3"
+  :author "Adam Jetmalani <https://akjetma.github.io>"
   :description "comprehensive clojure/clojurescript wrapper for google's diff match patch library"
-  :url "http://github.com/akjetma/dmp-clj"
+  :url "http://github.com/akjetma/dmp-clj"  
+  :scm {:name "git"
+        :url "http://github.com/akjetma/dmp-clj"}
+
+  :min-lein-version "2.5.3"
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.7.228"]]
   :plugins [[lein-cljsbuild "1.1.2"]]
