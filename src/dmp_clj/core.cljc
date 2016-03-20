@@ -1,6 +1,6 @@
 (ns dmp-clj.core
   #?(:clj (:import [name.fraser.neil.plaintext diff_match_patch diff_match_patch$Operation])
-     :cljs (:require [dmp.lib])))
+     :cljs (:require cljsjs.google-diff-match-patch)))
 
 (defn diff-match-patch
   []
